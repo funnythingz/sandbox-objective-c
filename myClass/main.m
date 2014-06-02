@@ -3,7 +3,10 @@
 int main(void)
 {
     id obj = [MyClass new];
-    [obj myMethod];
+
+    [obj greeting];
+
+    NSLog(@"%@", [obj sayStr]);
     
     return 0;
 }

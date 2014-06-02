@@ -2,10 +2,15 @@
 
 @implementation MyClass
 
-- (void) myMethod
+- (void) greeting
 {
     NSString *str = @"ahya!";
     NSLog(@"%@", str);
+}
+
+- (NSString *) sayStr;
+{
+    return @"hey";
 }
 
 @end

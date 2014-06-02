@@ -2,6 +2,8 @@
 
 @interface MyClass : NSObject
 
--(void) myMethod;
+- (void) greeting;
+
+- (NSString *) sayStr;
 
 @end
