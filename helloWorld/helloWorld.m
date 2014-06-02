@@ -2,7 +2,7 @@
 //  helloWorld.m
 //  helloworld
 //
-//  Created by oiwa-h on 2014/05/30.
+//  Created by funnythingz on 2014/05/30.
 //
 //
 

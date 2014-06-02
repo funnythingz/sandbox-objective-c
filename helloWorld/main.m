@@ -3,7 +3,7 @@
 int main(void)
 {
     id obj;
-    obj = [[HelloWorld alloc] init];
+    obj = [HelloWorld new];
     [obj greeting];
     
     return 0;
