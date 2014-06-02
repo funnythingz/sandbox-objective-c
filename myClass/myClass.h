@@ -8,4 +8,6 @@
 
 - (void) beQuiet:(NSString *) argMessage;
 
+- (NSString *) say: (NSString *) argMessage;
+
 @end

@@ -8,7 +8,9 @@ int main(void)
 
     NSLog(@"%@", [obj sayStr]);
     
-    [obj beQuiet : @"hyahyahya"];
+    [obj beQuiet: @"hyahyahya"];
+
+    NSLog(@"%@", [obj say: @"hogehoge"]);
 
     return 0;
 }

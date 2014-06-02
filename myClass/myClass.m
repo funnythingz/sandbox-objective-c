@@ -18,4 +18,9 @@
     NSLog(@"%@", argMessage);
 }
 
+- (NSString *) say: (NSString *) argMessage
+{
+    return argMessage;
+}
+
 @end
