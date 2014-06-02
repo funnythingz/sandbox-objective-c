@@ -8,9 +8,14 @@
     NSLog(@"%@", str);
 }
 
-- (NSString *) sayStr;
+- (NSString *) sayStr
 {
     return @"hey";
+}
+
+- (void) beQuiet:(NSString *) argMessage
+{
+    NSLog(@"%@", argMessage);
 }
 
 @end

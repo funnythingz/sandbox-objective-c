@@ -6,4 +6,6 @@
 
 - (NSString *) sayStr;
 
+- (void) beQuiet:(NSString *) argMessage;
+
 @end
