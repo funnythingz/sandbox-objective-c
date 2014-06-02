@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    id obj;
-    obj = [HelloWorld new];
+    id obj = [HelloWorld new];
     [obj greeting];
     
     return 0;
